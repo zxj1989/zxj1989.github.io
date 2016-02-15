@@ -4,7 +4,7 @@
   <title><![CDATA[SnowSword BLOG]]></title>
   <link href="http://zxj1989.github.io/atom.xml" rel="self"/>
   <link href="http://zxj1989.github.io/"/>
-  <updated>2016-02-15T09:18:00+08:00</updated>
+  <updated>2016-02-15T11:18:49+08:00</updated>
   <id>http://zxj1989.github.io/</id>
   <author>
     <name><![CDATA[SnowSword]]></name>
@@ -12,5 +12,14 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[开篇]]></title>
+    <link href="http://zxj1989.github.io/blog/2016/02/15/kai-pian/"/>
+    <updated>2016-02-15T10:18:21+08:00</updated>
+    <id>http://zxj1989.github.io/blog/2016/02/15/kai-pian</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
 </feed>
