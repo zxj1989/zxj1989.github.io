@@ -4,7 +4,7 @@
   <title><![CDATA[SnowSword BLOG]]></title>
   <link href="http://zxj1989.github.io/atom.xml" rel="self"/>
   <link href="http://zxj1989.github.io/"/>
-  <updated>2016-04-01T15:17:19+08:00</updated>
+  <updated>2016-04-01T15:19:55+08:00</updated>
   <id>http://zxj1989.github.io/</id>
   <author>
     <name><![CDATA[SnowSword]]></name>
@@ -19,7 +19,7 @@
     <updated>2016-04-01T15:12:32+08:00</updated>
     <id>http://zxj1989.github.io/blog/2016/04/01/ootopresshuan-dian-nao-xie-zuo</id>
     <content type="html"><![CDATA[<p>进行以下操作的前提是git仓库是按source和master分支进行管理的。
-完成一下两步操作即可再另外一台电脑进行写作</p>
+完成以下两步操作即可再另外一台电脑进行写作：</p>
 
 <p>1、将博客的源文件clone到本地的octopress文件夹内</p>
 
