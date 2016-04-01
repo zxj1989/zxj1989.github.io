@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[SnowSword BLOG]]></title>
-  <link href="http://zxj1989.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: 工具使用 | SnowSword BLOG]]></title>
+  <link href="http://zxj1989.github.io/blog/categories/gong-ju-shi-yong/atom.xml" rel="self"/>
   <link href="http://zxj1989.github.io/"/>
   <updated>2016-04-01T15:17:19+08:00</updated>
   <id>http://zxj1989.github.io/</id>
@@ -39,23 +39,6 @@ git pull origin source
 cd ./_deploy
 git pull origin master
 </code></pre>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[开篇]]></title>
-    <link href="http://zxj1989.github.io/blog/2016/02/15/kai-pian/"/>
-    <updated>2016-02-15T10:18:21+08:00</updated>
-    <id>http://zxj1989.github.io/blog/2016/02/15/kai-pian</id>
-    <content type="html"><![CDATA[<p>万事开头难，先说说写博客的初衷吧<br></p>
-
-<blockquote><p>学习的积累，能力的提升<br>
-提升自己的同时，将自己的学习总结分享给别人（予人玫瑰，手留余香）！<br>
-之前一直看一些大神的博客，一直羡慕不已，总想着自己要也有一个自己的博客多好（提升逼格，O(∩_∩)O哈哈~）<br></p></blockquote>
-
-<p>于是乎有了SnowSword的博客。希望以后自己能坚持将博客一直写下去。将自己学习到的东西都记录下来。</p>
-
-<p>坚持就是胜利，2016-2-16  勉</p>
 ]]></content>
   </entry>
   
