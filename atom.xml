@@ -4,7 +4,7 @@
   <title><![CDATA[SnowSword BLOG]]></title>
   <link href="http://zxj1989.github.io/atom.xml" rel="self"/>
   <link href="http://zxj1989.github.io/"/>
-  <updated>2016-04-05T15:53:01+08:00</updated>
+  <updated>2016-04-05T16:14:01+08:00</updated>
   <id>http://zxj1989.github.io/</id>
   <author>
     <name><![CDATA[SnowSword]]></name>
@@ -32,7 +32,7 @@
 
 <h3>第二步：点击左下角“+”添加按钮，如下图</h3>
 
-<p><img src="http://h.hiphotos.baidu.com/image/pic/item/d788d43f8794a4c2e26bf98f09f41bd5ac6e39cd.jpg" alt="MacDown Screenshot" /></p>
+<p><img src="http://7xsms4.com2.z0.glb.clouddn.com/step2.png" alt="MacDown Screenshot" /></p>
 
 <p>点击New UI Test Target完成UI Test的添加，添加之后该Target会自带一个UITests类。完成以上步骤即可以开始编写测试代码，进行UI测试了。</p>
 ]]></content>
