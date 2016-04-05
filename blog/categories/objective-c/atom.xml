@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Objective-c | SnowSword BLOG]]></title>
+  <link href="http://zxj1989.github.io/blog/categories/objective-c/atom.xml" rel="self"/>
+  <link href="http://zxj1989.github.io/"/>
+  <updated>2016-04-05T15:29:03+08:00</updated>
+  <id>http://zxj1989.github.io/</id>
+  <author>
+    <name><![CDATA[SnowSword]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[UI Test初窥]]></title>
+    <link href="http://zxj1989.github.io/blog/2016/04/05/ui-testchu-kui/"/>
+    <updated>2016-04-05T14:20:34+08:00</updated>
+    <id>http://zxj1989.github.io/blog/2016/04/05/ui-testchu-kui</id>
+    <content type="html"><![CDATA[<h2>1、关于UI Test</h2>
+
+<p>   UI Test是iOS9加入的一个新的UI测试框架，它可以让我们通过编写代码获取页面元素并与之进行交互，以验证用户界面元素的属性和状态。</p>
+
+<h2>2、在已有项目中使用UI Test</h2>
+
+<p>在iOS9之前，我们创建的项目默认会包含一个（工程名+Tests）的Target，该Target主要是用来做单元测试。主要做一些功能的测试。如果我们需要在已有的老项目中加入UI Test只需要完成下面两个步骤即可：</p>
+
+<h3>第一步：选中Xcode左上角的Test navigator按钮，如下图</h3>
+
+<p><img src="http://a.hiphotos.baidu.com/image/pic/item/9922720e0cf3d7ca6b0e20d2f51fbe096a63a99d.jpg" alt="MacDown Screenshot" /></p>
+
+<h3>第二步：点击左下角“+”添加按钮，如下图</h3>
+
+<p><img src="http://h.hiphotos.baidu.com/image/pic/item/d788d43f8794a4c2e26bf98f09f41bd5ac6e39cd.jpg" alt="MacDown Screenshot" /></p>
+
+<p>点击New UI Test Target完成UI Test的添加，添加之后该Target会自带一个UITests类。完成以上步骤即可以开始编写测试代码，进行UI测试了。</p>
+]]></content>
+  </entry>
+  
+</feed>

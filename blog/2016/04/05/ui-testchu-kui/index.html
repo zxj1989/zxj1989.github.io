@@ -5,14 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Blog Archive - SnowSword BLOG</title>
+  <title>UI Test初窥 - SnowSword BLOG</title>
   <meta name="author" content="SnowSword">
 
   
-  <meta name="description" content="Blog Archive 2016 UI Test初窥
-Apr 05 2016 posted in objective-c Ootopress换电脑写作
-Apr 01 2016 posted in 工具使用 开篇
-Feb 15 2016 Recent Posts UI Test初窥 &hellip;">
+  <meta name="description" content="1、关于UI Test UI Test是iOS9加入的一个新的UI测试框架，它可以让我们通过编写代码获取页面元素并与之进行交互，以验证用户界面元素的属性和状态。 2、在已有项目中使用UI Test 在iOS9之前，我们创建的项目默认会包含一个（工程名+Tests）的Target， &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +18,7 @@ Feb 15 2016 Recent Posts UI Test初窥 &hellip;">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://zxj1989.github.io/blog/archives/">
+  <link rel="canonical" href="http://zxj1989.github.io/blog/2016/04/05/ui-testchu-kui/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="SnowSword BLOG" type="application/atom+xml">
@@ -67,59 +64,84 @@ Feb 15 2016 Recent Posts UI Test初窥 &hellip;">
   <div id="main">
     <div id="content">
       <div>
-<article role="article">
+<article class="hentry" role="article">
   
   <header>
-    <h1 class="entry-title">Blog Archive</h1>
+    
+      <h1 class="entry-title">UI Test初窥</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+<time class='entry-date' datetime='2016-04-05T14:20:34+08:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>5</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>2:20 pm</span></time>
+        
+      </p>
     
   </header>
-  
-  <div id="blog-archives">
 
 
+<div class="entry-content"><h2>1、关于UI Test</h2>
 
-  
-  <h2>2016</h2>
+<p>   UI Test是iOS9加入的一个新的UI测试框架，它可以让我们通过编写代码获取页面元素并与之进行交互，以验证用户界面元素的属性和状态。</p>
 
-<article>
-  
-<h1><a href="/blog/2016/04/05/ui-testchu-kui/">UI Test初窥</a></h1>
-<time datetime="2016-04-05T14:20:34+08:00" pubdate><span class='month'>Apr</span> <span class='day'>05</span> <span class='year'>2016</span></time>
+<h2>2、在已有项目中使用UI Test</h2>
 
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/objective-c/'>objective-c</a></span>
-</footer>
+<p>在iOS9之前，我们创建的项目默认会包含一个（工程名+Tests）的Target，该Target主要是用来做单元测试。主要做一些功能的测试。如果我们需要在已有的老项目中加入UI Test只需要完成下面两个步骤即可：</p>
 
+<h3>第一步：选中Xcode左上角的Test navigator按钮，如下图</h3>
 
-</article>
+<p><img src="http://a.hiphotos.baidu.com/image/pic/item/9922720e0cf3d7ca6b0e20d2f51fbe096a63a99d.jpg" alt="MacDown Screenshot" /></p>
 
+<h3>第二步：点击左下角“+”添加按钮，如下图</h3>
 
+<p><img src="http://h.hiphotos.baidu.com/image/pic/item/d788d43f8794a4c2e26bf98f09f41bd5ac6e39cd.jpg" alt="MacDown Screenshot" /></p>
 
-<article>
-  
-<h1><a href="/blog/2016/04/01/ootopresshuan-dian-nao-xie-zuo/">Ootopress换电脑写作</a></h1>
-<time datetime="2016-04-01T15:12:32+08:00" pubdate><span class='month'>Apr</span> <span class='day'>01</span> <span class='year'>2016</span></time>
-
-<footer>
-  <span class="categories">posted in <a class='category' href='/blog/categories/gong-ju-shi-yong/'>工具使用</a></span>
-</footer>
-
-
-</article>
-
-
-
-<article>
-  
-<h1><a href="/blog/2016/02/15/kai-pian/">开篇</a></h1>
-<time datetime="2016-02-15T10:18:21+08:00" pubdate><span class='month'>Feb</span> <span class='day'>15</span> <span class='year'>2016</span></time>
-
-
-</article>
-
+<p>点击New UI Test Target完成UI Test的添加，添加之后该Target会自带一个UITests类。完成以上步骤即可以开始编写测试代码，进行UI测试了。</p>
 </div>
 
+
+  <footer>
+    <p class="meta">
+      
   
+
+<span class="byline author vcard">Posted by <span class="fn">SnowSword</span></span>
+
+      
+
+
+
+
+<time class='entry-date' datetime='2016-04-05T14:20:34+08:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>5</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>2:20 pm</span></time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/objective-c/'>objective-c</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2016/04/01/ootopresshuan-dian-nao-xie-zuo/" title="Previous Post: Ootopress换电脑写作">&laquo; Ootopress换电脑写作</a>
+      
+      
+    </p>
+  </footer>
 </article>
 
 </div>
