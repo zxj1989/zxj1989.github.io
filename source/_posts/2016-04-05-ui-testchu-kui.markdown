@@ -14,9 +14,9 @@ categories: Objective-C
 在iOS9之前，我们创建的项目默认会包含一个（工程名+Tests）的Target，该Target主要是用来做单元测试。主要做一些功能的测试。如果我们需要在已有的老项目中加入UI Test只需要完成下面两个步骤即可：
 
 ###第一步：选中Xcode左上角的Test navigator按钮，如下图
-![MacDown Screenshot](http://a.hiphotos.baidu.com/image/pic/item/9922720e0cf3d7ca6b0e20d2f51fbe096a63a99d.jpg)
+![MacDown Screenshot](http://7xsms4.com2.z0.glb.clouddn.com/step1.png)
 
 ###第二步：点击左下角“+”添加按钮，如下图
-![MacDown Screenshot](http://h.hiphotos.baidu.com/image/pic/item/d788d43f8794a4c2e26bf98f09f41bd5ac6e39cd.jpg)
+![MacDown Screenshot](http://7xsms4.com2.z0.glb.clouddn.com/step2.png)
 
 点击New UI Test Target完成UI Test的添加，添加之后该Target会自带一个UITests类。完成以上步骤即可以开始编写测试代码，进行UI测试了。
