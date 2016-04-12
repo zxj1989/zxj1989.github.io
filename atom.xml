@@ -4,7 +4,7 @@
   <title><![CDATA[SnowSword BLOG]]></title>
   <link href="http://zxj1989.github.io/atom.xml" rel="self"/>
   <link href="http://zxj1989.github.io/"/>
-  <updated>2016-04-12T09:58:02+08:00</updated>
+  <updated>2016-04-12T10:12:34+08:00</updated>
   <id>http://zxj1989.github.io/</id>
   <author>
     <name><![CDATA[SnowSword]]></name>
@@ -122,7 +122,10 @@ app.buttons[@&ldquo;UI Test Button”]</p>
 
 <p><img src="http://7xsms4.com2.z0.glb.clouddn.com/UI%20Test%20Record_2.png" alt="UI Test Record Run" /></p>
 
-<p>运行测试用例之后app自动启动，并自动完成代码对应的界面交互操作。</p>
+<p>运行测试用例之后app自动启动，并自动完成代码对应的界面交互操作。
+如果测试用例通过测试，对应的测试用例前面会有一个绿色的对勾图标，如果测试用例未通过测试则会有一个红色的叉号。</p>
+
+<p>如果我们设置了continueAfterFailure为NO时当某一个测试用例测试未通过时将会停止执行所有测试用例。</p>
 
 <p>注意：我们在写测试方法的时候方法名必须以test开头，只有以test开头的方法测试框架才会将该方法视为一个测试用例，否则是不会执行该方法的。</p>
 
