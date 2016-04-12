@@ -5,7 +5,7 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>SnowSword BLOG</title>
+  <title>UI Test之:编码篇 - SnowSword BLOG</title>
   <meta name="author" content="SnowSword">
 
   
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://zxj1989.github.io/">
+  <link rel="canonical" href="http://zxj1989.github.io/blog/2016/04/12/ui-test-bian-ma-pian/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="/atom.xml" rel="alternate" title="SnowSword BLOG" type="application/atom+xml">
@@ -63,15 +63,12 @@
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/blog/2016/04/12/ui-test-bian-ma-pian/">UI Test之:编码篇</a></h1>
+      <h1 class="entry-title">UI Test之:编码篇</h1>
     
     
       <p class="meta">
@@ -87,7 +84,7 @@
   </header>
 
 
-  <div class="entry-content"><p>之前我们介绍了如何在项目中加入UI Test，接下来我们将在这篇文章中介绍如何编写一个测试用例，以及一些UI Test相关测试类的常用方法等。</p>
+<div class="entry-content"><p>之前我们介绍了如何在项目中加入UI Test，接下来我们将在这篇文章中介绍如何编写一个测试用例，以及一些UI Test相关测试类的常用方法等。</p>
 
 <h2>初识XCTestCase</h2>
 
@@ -200,149 +197,50 @@ app.buttons[@&ldquo;UI Test Button”]</p>
 <p>当前的UI Test只能做一些简单的UI测试，对如scrollView的滑动事件支持bu不好。在测试的过程中还发现偶尔会出现判断存在且可以点击的元素，在执行tap的时候报错，找不到匹配的元素。
 录制生成的代码当包含中文时，中文会被转换成被编码的串，需要手动修改。希望在未来的版本中能修复和优化这些问题，开放更多测试的API。</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/04/05/ui-testchu-kui/">UI Test初窥</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2016-04-05T14:20:34+08:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>5</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>2:20 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h2>1、关于UI Test</h2>
-
-<p>   UI Test是iOS9加入的一个新的UI测试框架，它可以让我们通过编写代码获取页面元素并与之进行交互，以验证用户界面元素的属性和状态。</p>
-
-<h2>2、在已有项目中使用UI Test</h2>
-
-<p>在iOS9之前，我们创建的项目默认会包含一个（工程名+Tests）的Target，该Target主要是用来做单元测试。主要做一些功能的测试。如果我们需要在已有的老项目中加入UI Test只需要完成下面两个步骤即可：</p>
-
-<h3>第一步：选中Xcode左上角的Test navigator按钮，如下图</h3>
-
-<p><img src="http://7xsms4.com2.z0.glb.clouddn.com/step1.png" alt="MacDown Screenshot" /></p>
-
-<h3>第二步：点击左下角“+”添加按钮，如下图</h3>
-
-<p><img src="http://7xsms4.com2.z0.glb.clouddn.com/step2.png" alt="MacDown Screenshot" /></p>
-
-<p>点击New UI Test Target完成UI Test的添加，添加之后该Target会自带一个UITests类。完成以上步骤即可以开始编写测试代码，进行UI测试了。</p>
-</div>
-  
   
 
+<span class="byline author vcard">Posted by <span class="fn">SnowSword</span></span>
 
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/blog/2016/04/01/ootopresshuan-dian-nao-xie-zuo/">Ootopress换电脑写作</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
 
-<time class='entry-date' datetime='2016-04-01T15:12:32+08:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>1</span><span class='date-suffix'>st</span>, <span class='date-year'>2016</span></span> <span class='time'>3:12 pm</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>进行以下操作的前提是git仓库是按source和master分支进行管理的。
-完成以下两步操作即可再另外一台电脑进行写作：</p>
-
-<p>1、将博客的源文件clone到本地的octopress文件夹内</p>
-
-<pre><code> git clone -b source https://github.com/zxj1989/zxj1989.github.io.git octopress
-</code></pre>
-
-<p>2、将博客文件clone到octopress的_deploy文件夹内。</p>
-
-<pre><code>cd octopress
-git clone https://github.com/zxj1989/zxj1989.github.io.git 
-</code></pre>
-
-<p>如果是多台电脑并行写作需要更新源文件</p>
-
-<pre><code>cd octopress
-git pull origin source 
-cd ./_deploy
-git pull origin master
-</code></pre>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
+<time class='entry-date' datetime='2016-04-12T09:15:41+08:00'><span class='date'><span class='date-month'>Apr</span> <span class='date-day'>12</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>9:15 am</span></time>
       
-  <header>
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/objective-c/'>objective-c</a>
+  
+</span>
+
+
+    </p>
     
-      <h1 class="entry-title"><a href="/blog/2016/02/15/kai-pian/">开篇</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-<time class='entry-date' datetime='2016-02-15T10:18:21+08:00'><span class='date'><span class='date-month'>Feb</span> <span class='date-day'>15</span><span class='date-suffix'>th</span>, <span class='date-year'>2016</span></span> <span class='time'>10:18 am</span></time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><p>万事开头难，先说说写博客的初衷吧<br></p>
-
-<blockquote><p>学习的积累，能力的提升<br>
-提升自己的同时，将自己的学习总结分享给别人（予人玫瑰，手留余香）！<br>
-之前一直看一些大神的博客，一直羡慕不已，总想着自己要也有一个自己的博客多好（提升逼格，O(∩_∩)O哈哈~）<br></p></blockquote>
-
-<p>于是乎有了SnowSword的博客。希望以后自己能坚持将博客一直写下去。将自己学习到的东西都记录下来。</p>
-
-<p>坚持就是胜利，2016-2-16  勉</p>
+      <div class="sharing">
+  
+  
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2016/04/05/ui-testchu-kui/" title="Previous Post: UI Test初窥">&laquo; UI Test初窥</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/blog/archives">Blog Archives</a>
-    
-  </div>
 </div>
+
 <aside class="sidebar">
   
     <section>
@@ -374,6 +272,7 @@ git pull origin master
 
   
 </aside>
+
 
     </div>
   </div>
